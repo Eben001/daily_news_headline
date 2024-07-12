@@ -1,0 +1,6 @@
+lxml==5.2.2
+notificationapi-python-server-sdk==1.1.0
+requests==2.32.3
+nest-asyncio==1.6.0
+bs4==0.0.2
+beautifulsoup4==4.12.3
