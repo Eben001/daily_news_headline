@@ -9,10 +9,6 @@ env:
   email: ${{ secrets.EMAIL }}
   phone_number: ${{ secrets.PHONE_NUMBER }}
 
-
- 
-
-  
 jobs:
   scrape_headlines:     
     runs-on: ubuntu-latest
