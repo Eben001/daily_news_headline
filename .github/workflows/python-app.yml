@@ -3,6 +3,10 @@ name: Daily News
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 8 * * *"
+
+  
 env: 
   client_id: ${{ secrets.CLIENT_ID }}
   client_secret: ${{ secrets.CLIENT_SECRET }}
