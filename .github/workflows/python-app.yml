@@ -6,6 +6,10 @@ on:
 env: 
   client_id: ${{ secrets.CLIENT_ID }}
   client_secret: ${{ secrets.CLIENT_SECRET }}
+  email: ${{ secrets.EMAIL }}
+  phone_number: ${{ secrets.PHONE_NUMBER }}
+
+
  
 
   
