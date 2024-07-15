@@ -23,9 +23,9 @@ async def send_notification(comment):
     await notificationapi.send({
         "notificationId": "new_comment",
         "user": {
-          "id": "ndacekogana@gmail.com",
-          "email": "ndacekogana@gmail.com",
-          "number":"+2348152758566"    
+          "id":EMAIL ,
+          "email": EMAIL,
+          "number":PHONE_NUMBER    
         },
         "mergeTags": {
           "comment": comment
