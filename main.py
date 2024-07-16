@@ -40,7 +40,7 @@ soup = BeautifulSoup(response.text, 'lxml')
 
 news_div = soup.find_all('div', class_='td-block-span6')
 news_text = f'NEWS HEADLINE\n'
-for i, news in enumerate(news_div, 1):
+for i, news in enumerate(news_div[:5], 1):
   try:
     news_title = news.find('h3', class_='entry-title td-module-title').text.strip()
     news_date = news.find('span', class_='td-post-date').text.strip()
